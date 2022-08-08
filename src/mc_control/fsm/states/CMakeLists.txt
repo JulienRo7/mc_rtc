@@ -46,6 +46,7 @@ add_fsm_state_simple(SlidingFootContact)
 add_fsm_state_simple(Meta)
 add_fsm_state_simple(Parallel)
 add_fsm_state_simple(StabilizerStandingState)
+add_fsm_state_simple(ChangeController)
 
 # PythonState
 if(${PYTHON_BINDING})
